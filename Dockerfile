@@ -5,7 +5,7 @@ FROM python:3.6.5
 #RUN apt-get update -y && \
 #    apt-get install -y python-pip python-dev
 
-RUN  pip install -y python-pip python-dev
+RUN  pip install  python-pip python-dev
 
 
 # We copy just the requirements.txt first to leverage Docker cache
